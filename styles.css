@@ -12,7 +12,6 @@ body{
     color: #ffffff;
 }
 
-/* Need to check if the header stays with the profile */
 header{
     position: fixed;
     top: 0;
@@ -72,7 +71,7 @@ article {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 38%;
     border: 2px solid black;
     border-radius: 10%;
 }
@@ -81,4 +80,13 @@ article {
     width: 50px;
     height: 50px;
     padding: 10px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: -200px;
+    background-color: black;
+    border-top: rgb(119, 118, 118) solid 2px;
 }
